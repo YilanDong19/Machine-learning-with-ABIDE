@@ -101,16 +101,10 @@ for i in range(k_fold):
 #####################################################################################################
 #####################################################################################################
 parser = argparse.ArgumentParser()
-parser.add_argument('--dice', action='store_true')
 parser.add_argument('--ngpu', type=int, default=1)
 # nEpochs is only used for the first 20 iterations
 parser.add_argument('--nEpochs', type=int, default=500)
 # second_nEpochs will be used in the second training part(iterations after 20)
-parser.add_argument('--second_nEpochs', type=int, default=1)
-parser.add_argument('--start-epoch', default=0, type=int, metavar='N',
-                    help='manual epoch number (useful on restarts)')
-parser.add_argument('-e', '--evaluate', dest='evaluate', action='store_true',
-                    help='evaluate model on validation set')
 parser.add_argument('--weight-decay', '--wd', default=1e-8, type=float,
                     metavar='W', help='weight decay (default: 1e-8)')
 parser.add_argument('--no-cuda', action='store_true')
