@@ -19,13 +19,13 @@ def flatten_one(img):
 
 def feature_selection(matrix, labels, train_ind, fnum):
     """
-        matrix       : feature matrix (num_subjects x num_features)  特征矩阵
-        labels       : ground truth labels (num_subjects x 1) 真标签
-        train_ind    : indices of the training samples  训练样本的指标
-        fnum         : size of the feature vector after feature selection 特征选择后特征向量的大小。
+        matrix       : feature matrix (num_subjects x num_features)
+        labels       : ground truth labels (num_subjects x 1)
+        train_ind    : indices of the training samples 
+        fnum         : size of the feature vector after feature selection
 
     return:
-        x_data      : feature matrix of lower dimension (num_subjects x fnum) 地为特征矩阵
+        x_data      : feature matrix of lower dimension (num_subjects x fnum)
     """
 
     estimator = RidgeClassifier()
@@ -34,9 +34,8 @@ def feature_selection(matrix, labels, train_ind, fnum):
     featureX = matrix[train_ind, :]
     featureY = labels[train_ind]
     selector = selector.fit(featureX, featureY.ravel())
-    # x_data = selector.transform(matrix)
-
     return selector
+
 def get_subject_score(subject_list,l, path):
 
     name = l + '.mat'
