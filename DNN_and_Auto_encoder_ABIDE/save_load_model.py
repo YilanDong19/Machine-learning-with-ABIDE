@@ -9,7 +9,7 @@ def weights_init(m):
 
     classname = m.__class__.__name__
     if classname.find('Linear') != -1:
-        nn.init.kaiming_normal(m.weight)
+        nn.init.kaiming_normal_(m.weight)
         m.bias.data.zero_()
 
 def save_model(net,path, name_net):
