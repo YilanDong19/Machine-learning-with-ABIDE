@@ -102,14 +102,11 @@ for i in range(k_fold):
 #####################################################################################################
 parser = argparse.ArgumentParser()
 parser.add_argument('--ngpu', type=int, default=1)
-# nEpochs is only used for the first 20 iterations
 parser.add_argument('--nEpochs', type=int, default=500)
-# second_nEpochs will be used in the second training part(iterations after 20)
 parser.add_argument('--weight-decay', '--wd', default=1e-8, type=float,
                     metavar='W', help='weight decay (default: 1e-8)')
 parser.add_argument('--no-cuda', action='store_true')
 parser.add_argument('--seed', type=int, default=1)
-# I define three kinds of optimizer, adam sgd and rmsprop, but adam performs the best
 parser.add_argument('--opt', type=str, default='adam',
                     choices=('sgd', 'adam', 'rmsprop'))
 parser.add_argument('--cheby_order_K', type=int, default=2)
