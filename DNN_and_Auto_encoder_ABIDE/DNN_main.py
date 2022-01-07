@@ -102,7 +102,6 @@ parser.add_argument('--weight-decay', '--wd', default=1e-8, type=float,
                     metavar='W', help='weight decay (default: 1e-8)')
 parser.add_argument('--no-cuda', action='store_true')
 parser.add_argument('--seed', type=int, default=1)
-# I define three kinds of optimizer, adam sgd and rmsprop, but adam performs the best
 parser.add_argument('--opt', type=str, default='adam',
                     choices=('sgd', 'adam', 'rmsprop'))
 args, unknown = parser.parse_known_args()
