@@ -138,7 +138,7 @@ nll = False
 model = ChebNet_one_dropout(in_c=args.input_dimension, hid_c=args.hidden_dimension, out_c=args.output_dimension, K=args.cheby_order_K, dropout_rate=args.dropout_rate)
 gpu_ids = range(args.ngpu)
 model = nn.parallel.DataParallel(model, device_ids=gpu_ids)
-model.apply(weights_init_1)
+
 
 
 train = train_GCN
