@@ -11,11 +11,6 @@ def weights_init_1(m):
         nn.init.kaiming_normal_(m.weight)
         m.bias.data.zero_()
 
-def weights_init_2(m):
-    if isinstance(m, tg.nn.ChebConv):
-        print(m)
-        nn.init.kaiming_normal(m.weight)
-        m.bias.data.zero_()
 
 def save_model(net,path, name_net):
 
