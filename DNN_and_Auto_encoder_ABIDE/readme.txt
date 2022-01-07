@@ -7,5 +7,6 @@ in the DNN_main.py and auto_encoder_MLP_main.py
 2. Fill in the pathes in the DNN_main.py and auto_encoder_MLP_main.py (root_path = the path of all folder, cross_validation_path = the path of cross 
 validation folder, label_dir = the path of measures folder, save_path = choose a path to save models, excel_root = a path where has a excel file to store the accuracy
 loss during training, validation and testing)
-3. Run DNN_main.py or auto_encoder_MLP_main.py
-4. The results will be recorded in a excel file under the excel_root path.
+3. Please confirm which atlas you are using. CC200 atlas: image_size = [200,200], AAL atlas: image_size = [116,116]
+4. Run DNN_main.py or auto_encoder_MLP_main.py
+5. The results will be recorded in a excel file under the excel_root path.
