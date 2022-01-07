@@ -35,7 +35,7 @@ label_dir = 'Input the full path of \\download_data\\measures  (measures folder 
 
 k_fold = 5
 number_samples = 871
-image_size = [116, 116]
+image_size = [116, 116]   # this is the size of aal atlas.
 batch_size_train = 511
 batch_size_validation = 167
 batch_size_test = 167
