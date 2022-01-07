@@ -16,11 +16,6 @@ def obtain_onehot_site(all_sites, site):
     return one_hot_site
 
 def flatten_one(length, img):
-    '''
-      In some situations, the dimension on z-axis of images are smaller than
-      the dimension of z-axis of patches, this function will be used to pad
-    '''
-
     one_line = np.zeros((1, int(length)))
     position = 0
     for i in range(img.shape[0]):  # column
