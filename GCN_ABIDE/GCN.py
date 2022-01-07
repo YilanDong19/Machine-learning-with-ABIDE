@@ -6,12 +6,7 @@ import torch_geometric as tg
 
 class ChebNet_one_dropout(nn.Module):
     def __init__(self, in_c, hid_c, out_c, K, dropout_rate, normalize=True):
-        """
-        :param in_c: int, number of input channels.
-        :param hid_c: int, number of hidden channels.
-        :param out_c: int, number of output channels.
-        :param K:
-        """
+
         super(ChebNet_one_dropout, self).__init__()
         self.normalize = normalize
 
