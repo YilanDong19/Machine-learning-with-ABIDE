@@ -1,40 +1,8 @@
 import os
-import argparse
 import numpy as np
-import time
-import torch
-import torch.utils.data
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data.dataset import Dataset
-from torch.autograd import Variable
-from torchvision import datasets, transforms
-from torchvision.utils import make_grid , save_image
-import torchvision.utils as vutils
-from os.path import join
 from os import listdir
-from torch.utils.data.dataloader import DataLoader
-from torch.utils.data import DataLoader
-from collections import OrderedDict
-import nibabel as nib
-import matplotlib.pyplot as plt
-import cv2 as cv
-from os import path
-import shutil
-import scipy.stats
-import scipy.ndimage
-import random
-import torch.nn.init as init
-import torch.nn.functional as F
-import sys
-import math
-from functools import reduce
-import operator
-from scipy.interpolate import interp1d
-import nibabel as nib
-import SimpleITK as sitk
 import scipy.io as scio
-import matplotlib
+
 
 
 def obtain_onehot_site(all_sites, site):
