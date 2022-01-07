@@ -1,8 +1,6 @@
-import numpy as np
 from sklearn.linear_model import RidgeClassifier
 from sklearn.feature_selection import RFE
-import os
-import scipy.io as scio
+
 
 def feature_selection(matrix, labels, train_ind, fnum):
     
