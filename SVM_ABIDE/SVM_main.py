@@ -1,7 +1,6 @@
 from load_data import *
 from feature_selection import *
 from sklearn import svm
-import openpyxl
 from openpyxl import load_workbook
 import os
 import numpy as np
