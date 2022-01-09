@@ -73,7 +73,6 @@ number = len(filenames)
 length = image_size[0] * (image_size[1]-1) / 2
 group_images = np.zeros((number, int(length)))
 
-zero_column = []
 for index in range(number):
     image_name = str(filenames[index])
     image = scio.loadmat(os.path.join(root_path, image_name))
