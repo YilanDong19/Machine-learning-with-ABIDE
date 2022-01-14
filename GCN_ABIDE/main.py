@@ -35,7 +35,6 @@ for i in range(number_samples):
     all_networks.append(img)
 
 idx = np.triu_indices_from(all_networks[0], 1)
-norm_networks = [np.arctanh(mat) for mat in all_networks]
 vec_networks = [mat[idx] for mat in all_networks]
 all_samples_features = np.vstack(vec_networks)
 
