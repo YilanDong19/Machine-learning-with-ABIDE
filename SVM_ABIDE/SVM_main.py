@@ -77,7 +77,7 @@ for index in range(number):
     image_name = str(filenames[index])
     image = scio.loadmat(os.path.join(root_path, image_name))
     img = image['connectivity']
-    group_images[index,:] = flatten_one(length, img)
+    group_images[int(image_name[:-4]),:] = flatten_one(length, img)
 
 
 dist_selectors = {}
