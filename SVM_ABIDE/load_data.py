@@ -41,10 +41,10 @@ def load_data_SVM(image_path, image_size, label_path, label_name, selector=None,
         image = scio.loadmat(os.path.join(image_path, image_name))
         img = image['connectivity']
         img = flatten_one(length, img)
-        group_images[int(image_name[:-4]),:] = selector.transform(img)
+        group_images[index,:] = selector.transform(img)
 
         label_position = image_name[:-4]
-        group_labels[int(image_name[:-4]),0] = labels[0, int(label_position)]
+        group_labels[index,0] = labels[0, int(label_position)]
 
     return group_images, group_labels
 
