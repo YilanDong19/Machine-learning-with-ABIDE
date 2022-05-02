@@ -1,5 +1,4 @@
 ############
-Attention!!!  Attention!!!  Attention!!!
 Please use nilearn==0.6.2, otherwise the database cannot be downloaded successfully！！！！！
 ############
 The aim of this folder is to download the ABIDE dataset, and then create the 5-fold cross validation dataset for SVM, FCN, Auto-encoder and GCN models.
