@@ -7,6 +7,8 @@ To run:
 1. Add path in the fetch_data.py and ABIDEParser.py
 2. Run fetch_data.py
 
+!!!!! Please use nilearn==0.6.2, otherwise the database cannot be downloaded successfully ！！！！！
+
 Output:Three folders (in the download_data folder, which will appear after running the fetch_data.py)
 1. all : contains 871 function connectiontivity matrices
 2. cross validation : 5-fold cross validaiton dataset
