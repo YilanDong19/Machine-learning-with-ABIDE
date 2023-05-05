@@ -1,9 +1,9 @@
-# Machine-learning-with-ABIDE
+# Machine-learning-with-ABIDE (Google Colab)
 
 ##   Instruction !!!!!!!!!!!!!!!! : 
-1. Download First_step_prepare.ipynb
-2. Upload First_step_prepare.ipynb to google drive, open with google colab
-3. Run First_step_prepare.ipynb
+** 1. Download First_step_prepare.ipynb (this file prepares everything)**
+** 2. Upload First_step_prepare.ipynb to google drive, open with google colab**
+** 3. Run First_step_prepare.ipynb**
 
 The functions of First_step_prepare.ipynb :
 1. Create folders
