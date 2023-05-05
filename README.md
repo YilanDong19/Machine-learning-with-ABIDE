@@ -1,4 +1,4 @@
-# Machine-learning-with-ABIDE (Google Colab)
+# Machine learning with ABIDE (Google Colab)
 
 ##   Instruction !!!!!!!!!!!!!!!! : 
 
