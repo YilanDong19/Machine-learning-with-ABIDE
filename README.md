@@ -13,6 +13,11 @@ The functions of First_step_prepare.ipynb :
 2. Download fMRI and sMRI data to google drive
 3. Download necessary scripts
 
+## I also prepared a copy of all the necessary scripts in folder scripts for those who want to have a quick look. But you still need to run First_step_prepare.ipynb at the beginning.
+
+
+
+
 ### Models: 
 SVM, FCN, AE-FCN, GCN and EV-GCN
 
