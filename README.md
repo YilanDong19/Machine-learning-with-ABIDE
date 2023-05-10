@@ -1,6 +1,6 @@
 # Machine learning with ABIDE (Google Colab)
 
-##   Instruction !!!!!!!!!!!!!!!! : 
+##   Instruction: 
 
 **1. Download First_step_prepare.ipynb (this file prepares everything)**
 
@@ -13,7 +13,12 @@ The functions of First_step_prepare.ipynb :
 2. Download fMRI and sMRI data to google drive
 3. Download necessary scripts
 
-## I also prepared a copy of all the necessary scripts in folder scripts for those who want to have a quick look. But you still need to run First_step_prepare.ipynb at the beginning.
+I also prepared a copy of all the necessary scripts in folder "scripts" for those who want to have a quick look. For those who want to run these scripts, you still need to run First_step_prepare.ipynb at the beginning.
+
+##   Folder "scripts": 
+
+I uploaded all the necessary scripts to this folder as a copy for those who want to have a quick look. 
+
 
 
 
