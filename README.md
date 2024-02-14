@@ -35,8 +35,6 @@ ABIDE 870 samples, one subject failed with FreeSurfer pipeline
 1. Max voting [4]
 2. EMMA [5]
                   
-### Harmonization method: 
-- ComBat [6] (https://github.com/Jfortin1/ComBatHarmonization)
 
 ###   Folder "scripts": 
 I uploaded all the necessary scripts to this folder as a copy for those who want to have a quick look. Most of the scripts are named by "machine learning model" + "feature type", for example AE_FCN_fMRI.ipynb is to train Auto-encoder + fully connected neural network (AE-FCN) on fMRI features. The scripts named "EMMA_*" can only be run after all the other scripts, since EMMA ensemble method is to combine the outputs of all the machine learning models. 
