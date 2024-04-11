@@ -1,5 +1,5 @@
 # Machine learning with ABIDE (Google Colab)
-
+![image](https://github.com/YilanDong19/Machine-learning-with-ABIDE/blob/main/Graphical_Abstract/Graph_abstract.png)
 # Instruction: 
 
 **1. Download First_step_prepare.ipynb (this file prepares everything)**
