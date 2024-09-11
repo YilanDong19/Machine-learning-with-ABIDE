@@ -1,7 +1,6 @@
 # Machine learning with ABIDE (Google Colab)
 ![image](https://github.com/YilanDong19/Machine-learning-with-ABIDE/blob/main/Graphical_Abstract/Graph_abstract.png)
 # Preprint: https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1
-![image](https://github.com/user-attachments/assets/e378dd82-77d5-499a-8abd-f56aa082241a)
 Submitted to Human Brain Mapping.
 
 
