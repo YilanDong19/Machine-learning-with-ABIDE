@@ -47,6 +47,7 @@ I uploaded all the necessary scripts to this folder as a copy for those who want
 
 # Citation
 If you use this code for your research, please cite our paper.
+
 Dong Y, Batalle D, Deprez M. Reproducible comparison and interpretation of machine learning classifiers to predict autism on the ABIDE multimodal dataset[J]. medRxiv, 2024: 2024.09. 04.24313055.
 
 ###  References
