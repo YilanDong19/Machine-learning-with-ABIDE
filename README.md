@@ -7,7 +7,7 @@ Preprint: https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1
 Submitted to Human Brain Mapping.
 
 # Citation
-If you use this code for your research, please cite our paper.
+If you use this code for your research, please cite our paper:
 
 Dong Y, Batalle D, Deprez M. Reproducible comparison and interpretation of machine learning classifiers to predict autism on the ABIDE multimodal dataset[J]. medRxiv, 2024: 2024.09. 04.24313055.
 
