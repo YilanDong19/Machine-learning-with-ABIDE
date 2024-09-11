@@ -5,6 +5,10 @@
 Preprint: https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1
 Submitted to Human Brain Mapping.
 
+# Citation
+If you use this code for your research, please cite our paper.
+
+Dong Y, Batalle D, Deprez M. Reproducible comparison and interpretation of machine learning classifiers to predict autism on the ABIDE multimodal dataset[J]. medRxiv, 2024: 2024.09. 04.24313055.
 
 # Instruction: 
 
@@ -45,10 +49,7 @@ ABIDE 870 samples, one subject failed with FreeSurfer pipeline
 ###   Folder "scripts": 
 I uploaded all the necessary scripts to this folder as a copy for those who want to have a quick look. Most of the scripts are named by "machine learning model" + "feature type", for example, AE_FCN_fMRI.ipynb is to train Auto-encoder + fully connected neural network (AE-FCN) on fMRI features. The scripts named "EMMA_*" can only be run after all the other scripts, since EMMA ensemble method is to combine the outputs of all the machine learning models. 
 
-# Citation
-If you use this code for your research, please cite our paper.
 
-Dong Y, Batalle D, Deprez M. Reproducible comparison and interpretation of machine learning classifiers to predict autism on the ABIDE multimodal dataset[J]. medRxiv, 2024: 2024.09. 04.24313055.
 
 ###  References
 [1] Rakić, Mladen, Mariano Cabezas, Kaisar Kushibar, Arnau Oliver, and Xavier Lladó. 2020. ‘Improving the Detection of Autism Spectrum Disorder by Combining Structural and Functional MRI Information’. NeuroImage: Clinical 25(November 2019). doi: 10.1016/j.nicl.2020.102181. 
