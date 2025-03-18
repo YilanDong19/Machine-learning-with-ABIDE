@@ -2,14 +2,13 @@
 ![image](https://github.com/YilanDong19/Machine-learning-with-ABIDE/blob/main/Graphical_Abstract/Graph_abstract.png)
 
 # Paper
-Preprint: https://www.medrxiv.org/content/10.1101/2024.09.04.24313055v1
 
-Submitted to Human Brain Mapping.
+Published in Human Brain Mapping. http://dx.doi.org/10.1002/hbm.70190
 
 # Citation
 If you use this code for your research, please cite our paper:
 
-Dong Y, Batalle D, Deprez M. Reproducible comparison and interpretation of machine learning classifiers to predict autism on the ABIDE multimodal dataset[J]. medRxiv, 2024: 2024.09. 04.24313055.
+Dong Y, Batalle D, Deprez M. A framework for comparison and interpretation of machine learning classifiers to predict autism on the ABIDE dataset[J]. Human Brain Mapping, 2025.
 
 # Instruction: 
 
