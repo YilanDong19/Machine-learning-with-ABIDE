@@ -1,4 +1,4 @@
-# Machine learning with ABIDE (Google Colab)
+# A Framework for Comparison and Interpretation of Machine Learning Classifiers to Predict Autism on the ABIDE Dataset (Google Colab)
 ![image](https://github.com/YilanDong19/Machine-learning-with-ABIDE/blob/main/Graphical_Abstract/Graph_abstract.png)
 
 # Paper
