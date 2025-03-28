@@ -49,8 +49,8 @@ ABIDE 870 samples, one subject failed with FreeSurfer pipeline
 ###   Folder "scripts": 
 I uploaded all the necessary scripts to this folder as a copy for those who want to have a quick look. Most of the scripts are named by "machine learning model" + "feature type", for example, AE_FCN_fMRI.ipynb is to train Auto-encoder + fully connected neural network (AE-FCN) on fMRI features. The scripts named "EMMA_*" can only be run after all the other scripts, since EMMA ensemble method is to combine the outputs of all the machine learning models. 
 
-###  The application of the interpretation method SmoothGrad: 
-Will upload it later. You can find the corresponding information in my paper.
+###  Folder "SmoothGrad_interpretation": 
+The SmoothGrad application to FCN, AE-FCN, GCN, EV-GCN have been uploaded to this folder. We applied the SmoothGrad interpretation methods to FCN, AE-FCN, GCN and EV-GCN to study model stability and understand what features contributed to model decision-making.
 
 ###  References
 [1] Rakić, Mladen, Mariano Cabezas, Kaisar Kushibar, Arnau Oliver, and Xavier Lladó. 2020. ‘Improving the Detection of Autism Spectrum Disorder by Combining Structural and Functional MRI Information’. NeuroImage: Clinical 25(November 2019). doi: 10.1016/j.nicl.2020.102181. 
